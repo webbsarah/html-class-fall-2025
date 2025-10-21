@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'eagle-lake-regular'; /*a name to be used later*/
+    src: url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap'); /*URL to font*/
+}
+
+
+body {
+    background-color: #f4eac6;
+
+    *{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    }
+
+    
+    h1{
+        color: #8c6045;
+        font-size: 50px;
+        font-family: "Eagle Lake", serif;
+        font-weight: 100;
+        font-style: normal;
+        }
+      
+
+    h2, h4{
+    color: #274346;
+    font-style: Bold;
+    font-family: "Eagle Lake";
+    font-weight: 900;
+    
+    }
+
+    h3{
+      font-size: 20px;
+      color: #8c6045;
+      font-family: "Eagle Lake", serif;
+      font-weight: 800;
+      font-style: bold;
+
+      }
+
+ 
+
+    p {
+      color: #b5896e;
+      font-family: 'Garamond', serif;
+      font-size: 20px;
+     
+      margin-right: 5%;
+      margin-left: 5%;
+      padding-left: 1%;
+      padding-right: 1%;
+
+    }
+
+    img {
+
+        display: block;
+        margin: auto;
+        width: 50%;
+        border: 5px #55868C;
+        border: alpha 90%;
+        border-style: inset;
+        border-radius: 2%;
+        
+
+    }
+
+
+
+
+div {
+
+   border-style: dotted;
+   padding-left: 2%;
+   padding-right:2%;
+   margin-left: 10%;
+   margin-right: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
