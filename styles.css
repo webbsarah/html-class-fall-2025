@@ -1,0 +1,155 @@
+/*
+
+CSS rules you may need:
+- font-family
+    - Arial, sans-serif
+- line-height
+- color
+- margin
+- padding
+- background-color
+- border-radius
+- border-left
+- border-bottom
+- margin-top
+- padding-left
+- padding-bottom
+- width
+- height
+- margin-bottom
+- font-size
+
+Pseudo classes you may need:
+- :hover
+- :first-letter
+- :nth-child
+
+*/
+
+/* Write your CSS code here */
+
+
+*{
+
+background-color: #def4f9;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+
+    background-color: white;
+    font-size:20px;
+
+}
+
+p:not(footer p)::first-letter{
+
+color:rgb(48, 120, 179);
+font-size:50px;
+font-weight: 400px;
+
+}
+
+
+
+main {
+
+    background-color: white;
+    padding-left:2%;
+    padding-right:2%;
+
+}
+
+section {
+
+    background-color:rgb(244, 248, 251);
+
+}
+
+/*
+table td:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table td:nth-child(odd) {
+  background-color: #e0e0e0;
+}
+
+// I couldn't for the life of me get the zebra stripes to work >_< 
+
+*/
+
+th {
+
+    background-color:rgb(67, 130, 186);
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid #adadad;
+
+
+}
+td:hover {
+    background-color: rgb(193, 237, 249);
+}
+
+td {
+    
+    background-color:rgb(255, 255, 255);
+    border-bottom: 1px solid #e0e0e0;
+
+}
+    
+
+
+p{
+
+    background-color:rgb(244, 248, 251);
+
+
+}
+    
+
+table {
+
+    border: 1px solid #eae9e9;
+
+
+}
+
+
+
+h1 {
+    background-color:rgb(83, 169, 244);
+    color:white;
+}
+
+h2 {
+    background-color:rgb(244, 248, 251);
+    border-style:none none solid solid;
+    border-color:rgb(93, 175, 247);
+    padding-top:5%;
+    padding-bottom:2%;
+    padding-left:1%;
+    padding-right:5%;
+
+}
+
+h3 {
+    background-color:rgb(244, 248, 251);
+    padding-left: 5%;
+    margin-left: 10%;
+
+}
+
+img {
+    border-radius: 5%;
+    box-shadow: inset;
+   
+}
+
+footer p{
+
+    color:rgb(135, 135, 136);
+    background-color: #def4f9;
+
+}
